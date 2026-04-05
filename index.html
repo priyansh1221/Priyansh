@@ -4,130 +4,203 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Priyansh Patel - AI Engineer building production computer vision systems, active learning pipelines, and offline-first software for real-world use."
+    />
+    <meta property="og:title" content="Priyansh Patel | AI Engineer" />
+    <meta
+      property="og:description"
+      content="Production AI systems, computer vision, active learning, and offline-first software built for real environments."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://priyansh1221.github.io/Priyansh/" />
+    <meta name="theme-color" content="#09111f" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
-    <script
-      src="https://kit.fontawesome.com/dd4ae78545.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Priyansh Patel</title>
+    <title>Priyansh Patel | AI Engineer</title>
   </head>
   <body>
-    <!-- ==================== Home ==================== -->
-    <section id="home" class="s1">
-      <div class="container home-container">
-        <img
-          src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg"
-          alt=""
-        />
-        <div class="home-wrapper wrapper">
-          <div class="intro">
-            <div class="heading">
-              <h5><span>AI Engineer</span></h5>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="#home">Priyansh Patel</a>
+        <nav class="nav">
+          <a href="#work">Projects</a>
+          <a href="#journey">Journey</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">AI Engineer · Production Systems · Surat, India</p>
+            <h1>Building AI systems that work outside the lab.</h1>
+            <p class="lede">
+              I design and ship computer vision, deep learning, and offline-first software for real environments.
+              Recent work includes a live retail loss-prevention platform and a production garage management system.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work">View selected work</a>
+              <a class="button secondary" href="mailto:1.priyannsh@gmail.com">Email me</a>
             </div>
-            <h1>hi 👋, I'm Priyansh.</h1>
+            <ul class="quick-facts">
+              <li><strong>MSc AI</strong><span>Distinction</span></li>
+              <li><strong>0.941</strong><span>Chitr ROC-AUC</span></li>
+              <li><strong>Offline-first</strong><span>JalaSai in production</span></li>
+            </ul>
           </div>
-        </div>
-        <ul class="social-links">
-          <li>
-            <a
-              class="social-link"
-              href="https://www.linkedin.com/in/priyansh-1221/"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="social-link"
-              href="https://twitter.com/priyansh1221"
-              target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              class="social-link"
-              href="https://www.instagram.com/__priyanshhh/"
-              target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-          
-        </ul>
-      </div>
-    </section>
-    <!-- ==================== Home ==================== -->
 
-    <!-- ==================== Technologies ==================== -->
-    <section id="technologies" class="s2">
-      <div class="container">
-        <div class="technologies-wrapper wrapper">
-          <p>
-            AI Engineer with MSc in Artificial Intelligence (Distinction) from London Metropolitan University.
-            I build production systems that work under real constraints -- from a retail loss prevention platform
-            with 0.941 ROC-AUC and a 2.7% false alarm rate, to an offline-first garage management system for a
-            live two-wheeler repair business in Surat. I think carefully about the problem before touching the
-            tools. Currently building agentic AI workflows and evaluation pipelines at Labelbox.
-          </p>
-          
-        </div>
-      </div>
-    </section>
-    <!-- ==================== Technologies ==================== -->
-
-    <!-- ==================== Journey ==================== -->
-    <section id="journey" class="s2">
-      <div class="container">
-        <div class="journey-wrapper wrapper">
-          <div class="heading">
-            <h5><span>MY JOURNEY</span></h5>
-          </div>
-          <div id="journey-single"></div>
-        </div>
-      </div>
-    </section>
-    <!-- ==================== Journey ==================== -->
-
-    <!-- ==================== Projects ==================== -->
-    <section id="work" class='s1'>
-      <div class="container">
-        <div class="projects-wrapper wrapper">
-          <div class="projects">
-            <div class="projects-left">
-              <div class="heading">
-                <h5><span>MY PROJECTS</span></h5>
+          <aside class="hero-panel">
+            <div class="panel-card accent-card">
+              <span class="panel-label">Current focus</span>
+              <h2>Agentic AI workflows and evaluation pipelines</h2>
+              <p>
+                At Labelbox I work on training-data quality, reasoning tasks, and evaluation frameworks for
+                large model systems.
+              </p>
+            </div>
+            <div class="panel-card stats-card">
+              <div>
+                <span class="stat-value">2</span>
+                <span class="stat-label">production systems shipped</span>
               </div>
-              <div id="project-left"></div>
+              <div>
+                <span class="stat-value">3</span>
+                <span class="stat-label">years in applied ML</span>
+              </div>
+              <div>
+                <span class="stat-value">100%</span>
+                <span class="stat-label">built for real users</span>
+              </div>
             </div>
-            <div class="project-right">
-              <div id="project-right"></div>
+            <div class="panel-card links-card">
+              <a href="https://www.linkedin.com/in/priyansh-1221/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/priyansh1221" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://github.com/priyansh1221/Priyansh" target="_blank" rel="noreferrer">Portfolio repo</a>
             </div>
-          </div>
+          </aside>
         </div>
-      </div>
-    </section>
-    <!-- ==================== Projects ==================== -->
+      </section>
 
-    <!-- ==================== Contact ==================== -->
-    <section id="contact" class="s2">
-      <div class="container">
-        <div class="contact-wrapper wrapper">
-          <div class="heading">
-            <h5><span>CONTACT</span></h5>
+      <section class="section section-alt" id="summary">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Snapshot</p>
+            <h2>Professional summary</h2>
           </div>
-          <div class="contact">
-            <h4>Email</h4>
-            <a href="mailto:1.priyannsh@gmail.com">1.priyannsh@gmail.com</a>
-          </div>
-          <br />
-          <div class="contact">
-            <h4>Phone</h4>
-            <a href="tel:+447466550631">+44 7466550631</a>
+          <div class="summary-grid">
+            <div class="summary-card">
+              <h3>What I build</h3>
+              <p>
+                Computer vision systems, active learning loops, and practical software that balances latency,
+                reliability, and operational simplicity.
+              </p>
+            </div>
+            <div class="summary-card">
+              <h3>How I work</h3>
+              <p>
+                I start from the deployment reality, then shape the model, backend, and UI around the actual user
+                constraints.
+              </p>
+            </div>
+            <div class="summary-card">
+              <h3>What I value</h3>
+              <p>
+                Measurable outcomes, clear trade-offs, and systems that keep working when the happy path breaks.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- ==================== Contact ==================== -->
+      </section>
+
+      <section class="section" id="work">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects that show production judgment</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-meta">Live deployment</div>
+              <h3>Chitr - Real-Time Loss Prevention</h3>
+              <p>
+                Retail theft detection pipeline that uses YOLOv8 as a fast gate and VideoMAE / SlowFast R101 for
+                asynchronous clip analysis. PostgreSQL feedback and MLflow tracking keep the system improving in the
+                field.
+              </p>
+              <ul class="bullet-list">
+                <li>0.941 ROC-AUC</li>
+                <li>93.3% accuracy</li>
+                <li>2.7% false alarm rate</li>
+              </ul>
+              <div class="tags">
+                <span>PyTorch</span><span>VideoMAE</span><span>YOLOv8</span><span>FastAPI</span><span>PostgreSQL</span><span>MLflow</span>
+              </div>
+            </article>
+
+            <article class="project-card featured">
+              <div class="project-meta">Business system</div>
+              <h3>JalaSai Garage System</h3>
+              <p>
+                Offline-first garage management platform for a live two-wheeler workshop. Single-file vanilla JS app
+                with localStorage, QR generation, WhatsApp billing, stock tracking, and operational reporting.
+              </p>
+              <ul class="bullet-list">
+                <li>Runs without internet</li>
+                <li>Built for shop-floor speed</li>
+                <li>Used in daily operations</li>
+              </ul>
+              <div class="tags">
+                <span>Vanilla JS</span><span>localStorage</span><span>BarcodeDetector API</span><span>Browser Print API</span><span>WhatsApp deep links</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="journey">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Journey</p>
+            <h2>Experience and education</h2>
+          </div>
+          <div id="journey-single" class="timeline"></div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and domains I use often</h2>
+          </div>
+          <div id="skills-grid" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="shell contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Open to AI engineering, applied ML, and production system roles.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:1.priyannsh@gmail.com">1.priyannsh@gmail.com</a>
+            <a href="https://www.linkedin.com/in/priyansh-1221/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/priyansh1221" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>
